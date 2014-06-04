@@ -3,7 +3,7 @@ Example of caching MVC response using Firesystem cache in ZF2
 
 **Configuration**
 
-The filesystem cache is configured within Application/module.config.php and therefore deligated to Zend\Cache\Service\StorageCacheAbstractServiceFactory to construct the Cache Adapter. 
+The filesystem cache is configured within Application/module.config.php and therefore delegated to Zend\Cache\Service\StorageCacheAbstractServiceFactory to construct the Cache Adapter. 
 
 **Response Caching**
 
