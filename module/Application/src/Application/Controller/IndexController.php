@@ -21,7 +21,7 @@ class IndexController extends AbstractActionController
         var_dump('not using cache');
         $someData = array('a' => 10, 'b' => 20);
         $this->getEventManager()->setIdentifiers(array(__CLASS__));
-        $this->getEventManager()->trigger(__FUNCTION__.'.cache', $this, $someData);
+        $this->getEventManager()->trigger(__FUNCTION__, $this, $someData);
         return new ViewModel();
     }
 
